@@ -1,25 +1,28 @@
 body {
-  /* background-color: ; */
+  overflow-x: hidden;
 
 }
 
 .titulo {
-  color: #fff;
-  background-color: #5256C5;
+  color:#5256C5;
+  background-color:#fff;
   width: 910%; 
   padding: 10px 23px 0 10px; 
   box-sizing: border-box; 
   margin-top: -30px;
+  font-family:cursive;
 }
 
 .titulo h1 {
   margin-left: 99px;
+  font-family:cursive;
 }
 
 .titulo h2 {
   margin-left: 99px;
   margin-top: 80px;
   margin-right: 180px;
+  font-family:cursive;
 }
 
 .titulo img {
@@ -33,18 +36,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .titulo {
   display: flex;
   align-items: center;
+  font-family:cursive;
   
 }
 
 
 .Menu {
-  color: white; 
-  background-color: #fff;
+  font-family:cursive;
 }
 
 nav ul {
@@ -53,7 +57,7 @@ nav ul {
   margin: 0;
   margin-left: 450px;
   margin-top: -45px;
-  color: #f4f4f4;
+  
 }
 
 nav ul li {
@@ -68,56 +72,59 @@ nav ul li:last-child {
 
 
 .Sobre {
-  background-color: #fff;
+  color: #5256C5;
   padding: 20px;
   border-radius: 8px;
   margin: 0 auto;
   text-align: center;
-  /* display: flex; Utiliza flexbox */
-  /* flex-wrap: nowrap; Evita que os elementos quebrem para a próxima linha */
-  /* overflow-x: auto; Permite rolar horizontalmente se necessário */
   width: 50%;
   margin-top: 10px;
+  font-family:cursive;
 }
 
 .Sobre .pagina {
-  /* flex: 10 10 auto; Evita que os elementos se estiquem */
-  padding: 10px; /* Adiciona algum espaçamento entre os elementos */
+  padding: 10px; 
+  font-family:cursive;
 }
 
 .Sobre h2,
 .Sobre h1,
 /* .Sobre h3, */
 .Sobre h5 {
-  margin: 0; /* Remove margens padrão */
-  /* color: #5256C5; */
-  /* border-color: #5256C5; */
+  margin: 0; 
   border-radius: 30px;
-  color: #f4f4f4;
+  color: #5256C5;
+  font-family:cursive;
 }
 
 
 .Sobre h3 {
-  color: darkcyan;
- 
+  color:#5256C5;
+  font-family:cursive;
+  text-align:start;
+  margin-left:100px;
 }
 
 
 .Sobre img {
-  max-width: 100%; /* Ajusta a largura máxima das imagens */
+  max-width: 100%; 
 }
 
 .Sobre p {
   color:#5256C5;
+  font-family:cursive;
 }
 
 .Marketing {
-
+  font-family:cursive;
 }
 
 .Marketing h2 {
-  background-color: darkcyan;
-  color: #fff;
+  background-color:#fff;
+  color:darkcyan;
+  text-align:center;
+  font-size: 25px;
+  font-family:cursive;
 }
 
 
@@ -132,52 +139,59 @@ nav ul li:last-child {
 .content {
     margin-bottom: 10px;
     margin-left: 10px;
+    font-family:cursive;
+    margin-top: -5px;
    
 }
 
 .content p {
-    /* background-color: #f4f4f4; */
-    padding: 1px;
-    background-color: #5256C5;
-    color: #f4f4f4;
+    padding: 1px; 
     width: 290px;
     margin-left: 10px;
     font-size: 25px;
+    font-family:cursive;
     
 }
 
 .content h1 {
   margin-right: 910px;
-  
- 
-  
+  color: darkcyan;
+  font-family:cursive;
 }
 
 .conteiner {
   width: 300px;
+  font-family:cursive;
+  margin-top: -999px;
 }
 
 .conteiner h1 {
-  /* margin-left: 250px; */
 margin-left: 950px;
+font-family:cursive;
 }
 
+
+
 .contact h2 {
-    color:  #f4f4f4;
-    background-color:  darkcyan;
     width: 290px;
     margin-left: 15px;
-    
+    font-family:cursive;
+    background-color: darkcyan;
+    color:#fff;
+    margin-top: -20px;
+    text-align: center;
+
 }
 
 .botao {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #5256C5;
-  color: #f4f4f4;
+  background-color:darkcyan;
+  color:#fff;
   text-decoration: none;
   border-radius: 5px;
   margin-left: 10px;
+  
 }
 
 
@@ -190,33 +204,36 @@ margin-left: 950px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: relative; 
-  top: -600px; 
+  top: -480px; 
   right: -150px; 
   gap: 250px;
   border-color: #5256C5;
   width: 290px;
   margin-right: 180px;
   margin-left: 770px;
-  margin-top: -50px;
+  margin-top: -160px;
+  font-family:cursive;
 }
 
 
 h1 {
   text-align: center;
-  background-color: #5256C5;
-  color: #f4f4f4;
-
- 
+  background-color:#fff;
+  color:#5256C5;
+  width: 600;
+  font-family:cursive;
 }
 
 h2 {
   background-color: #5256C5;
   color: #f4f4f4;
+  font-family:cursive;
  
 }
 
 form {
   margin-top: 20px;
+  font-family:cursive;
 }
 
 .input-group {
@@ -228,7 +245,7 @@ form {
   margin-bottom: 5px;
 }
 
-.input-group input,
+.input-group input, 
 .input-group textarea {
   width: 100%;
   padding: 10px;
@@ -253,26 +270,45 @@ button:hover {
 
 .Slogan {
   width: 500px;
-  margin-left: 390px;
-  margin-top: -678px;
+  margin-left: 360px;
+  margin-top: -705px;
   text-align: center;
+  font-family:cursive;
 
 }
 
-.Slogan h1 h2 {
+.Slogan h1  {
+  color: #5256C5;
+  background-color:#fff; 
+  font-family:cursive;
+}
+
+.Slogan h2 {
+  color: #5256C5; 
+  background-color:#fff;
+  text-align:justify;
+  font-family:cursive;
+  letter-spacing: -2px;
+  font-size: 18px;
+}
+
+.Paragrafo {
   
-}
-
-.Slogan p {
-  
-   
-}
+  }
 
 .Paragrafo h1{
-  font-size: 23px;
-  margin-top: 30px;
-  background-color:darkcyan;
+  font-size: 20px;
+  margin-top: 50px;
   border-radius: 10px;
+  text-align:center;
+  font-family:cursive;
+  font-size: 40px;
+  color:#fff;
+  background-color:darkcyan;
+}
+
+.Paragrafo h2 {
+  font-size: 80px;
 }
 
 .Logo {
@@ -289,6 +325,7 @@ button:hover {
   background-color: darkcyan;
   width: 178px;
   color: #f4f4f4;
+  font-family:cursive;
 }
 
 .Logo p {
@@ -297,72 +334,152 @@ button:hover {
   color:#f4f4f4;
   background-color: darkcyan;
   width: 40px;
+  font-family:cursive;
 }
 
-.texto h1 {
-  margin-top: -550px;
-  background-color: darkcyan;
-  color: #f4f4f4;
-  border-radius: 30px;
-  width: 520px;;
-  margin-left: 10px;
+.texto {
+  width: 600px;
+  margin-top: 180px;
+  font-family:cursive;
+}
 
+
+.texto h1 {
+  margin-top: -730px;
+  border-radius: 30px;
+  width: 920px;;
+  margin-left: 10px;
+  font-family:cursive;
 }
 
 .texto h2 {
-  background-color:darkcyan;
-  color: #f4f4f4;
+  background-color:#fff;
+  color:#5256C5;
   border-radius: 10px;
-  width: 520px;
-  margin-left: 10px;
+  width: 505px;
+  margin-left: 50px;
+  text-align:left;
+  font-family:cursive;
+  text-align: justify;
+  letter-spacing: -4px;
+  margin-top: -20px;
 
 }
+
+
+
+.promocao {
+  .container {
+    width: 200px;
+    margin: 50px auto;
+    text-align: center;
+    
+}
+
+
+.promo-selo h2 {
+  width: 450px;
+  border-radius: 10px;
+  }
+  
+}
+.promo-selo {
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.promo-selo p {
+    font-size: 20px;
+    margin: 10px 0;
+    background-color: darkcyan;
+    color: #fff;
+    border-radius: 10px;
+    width: 450px;
+}
+
+
+  .promocao h2 {
+    font-size: 26;
+    width: 450px;
+    text-align: center;
+  }
 
 .service-list {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid darkcyan;
-  border-radius: 5px;
-  /* margin-top: -150px; */
+  border-radius: 35px;
+  font-family:cursive;
+  float: inline-start;
 }
 
 .service-list h2 {
   font-size: 24px;
   text-align: center;
+  font-family:cursive;
 }
 
 .service-list ul {
   list-style-type: none;
-  padding: 0;
+  padding: 90px;
+  font-family:cursive;
 }
 
 .service-list li {
   font-size: 18px;
   margin-bottom: 10px;
+  font-family:cursive;
 }
 
 .service-list li::before {
-  content: "\2022"; /* Bullet point */
+  content: "\2022"; 
   color:darkcyan;
   font-weight: bold;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+  font-family:cursive;
 }
 
 .Nossos {
-    margin-left: 630px;
-    width: 600px;
-    margin-top: -930px;
+    margin-left: 730px;
+    width: 350px;
+    margin-top: -1322px;
+    color: darkcyan;
+    font-family:cursive;
 }
 
 .Nossos ul {
-  color:#f4f4f4;
-  background-color: darkcyan;
+  color:#5256C5;
   font-size: 25px;
   border-radius: 9px;
+  font-family:cursive;
 } 
+
+.Nossos h1 {
+  color:#5256C5;
+  font-family:cursive;
+}
+
+.Nossos h2 {
+  color:#5256C5;
+  background-color: #fff;
+  font-family:cursive;
+}
 
 .project {
   display: inline-block;
@@ -372,6 +489,7 @@ button:hover {
   padding: 20px;
   box-sizing: border-box;
   margin-left: 180px;
+  font-family:cursive;
   
 }
 
@@ -382,44 +500,68 @@ button:hover {
 
 .description {
   margin-top: 10px;
+  font-family:cursive;
 }
 
 .projetos {
   align-items: center;
-  margin-top: 499px;
-  width: 600px;
- 
-
+  width: 1250px;
+  margin-top: -10px;
+  margin-left: 1px;
+  font-family:cursive;
+  
 }
 
+
 .projetos h1 {
-  width: 650px;
-  /* margin-left: -35px; */
-  margin-left: 365px;
-  text-align: justify;
+  width: 800px;
+  margin-left: 70px;
+  border-radius: 9px;
+  color: darkcyan;
+  margin-left: 30px;
+  font-family:cursive;
+}
+
+.projetos a{
+  margin-left:-10px;
+  font-family:cursive;
+}
+
+.projetos p {
+  margin-left:-10px;
+  font-family:cursive;
+}
 
 .Fale-Conosco {
   .container {
-    max-width: 800px;
+    max-width: 200px;
     margin: 0 auto;
     padding: 20px;
+    font-family:cursive;
 }
+
+
+
 
 .contact-box {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family:cursive;
 }
 
 .contact-box h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family:cursive;
 }
 
 .contact-box p {
     font-size: 16px;
     margin-bottom: 20px;
+    font-family:cursive;
+   
 }
 
 form input[type="text"],
@@ -429,10 +571,12 @@ form textarea {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family:cursive;
 }
 
 form textarea {
     height: 100px;
+    font-family:cursive;
 }
 
 form button {
@@ -442,6 +586,7 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family:cursive;
 }
 
 form button:hover {
@@ -449,57 +594,103 @@ form button:hover {
 }
 }
 
+.beneficios {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: -60px;
+    margin-left: 580px;
+    font-family:cursive;
+}
+
+.beneficios img {
+  height: 630px;
+  margin-top: -600px ;
+  margin-left: -20px;
+  opacity: 0.2; 
+  
+}
+
+h1 {
+    color:darkcyan;
+    font-family:cursive;
+}
+
+p {
+    color:#5256C5;
+    line-height: 1.5;
+    font-size: 25px;
+    text-align:left;
+    margin-left: 45px;
+    font-family:cursive;
+    font-style:oblique;
+    font-display: 12px;
+
+}
+
 .FAQ {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+  font-family:cursive;
 }
 
 .FAQ h1 {
   text-align: center;
   margin-bottom: 30px;
- margin-left: -120px;
+ margin-left: 0px;
+ font-family:cursive;
 }
 
 .faq {
   border: 1px solid ;
   border-radius: 5px;
   padding: 20px;
+  font-family:cursive;
 }
 
+
+
+
+/* 
 .question {
   margin-bottom: 20px;
-}
+  font-family:cursive;
+} */
 
 .question h2 {
   margin-top: 0;
+  font-family:cursive;
 }
 
 .question p {
   margin-top: 5px;
   font-size: 16px;
+  font-family:cursive;
 }
 
 .footer {
-  max-width: 3900px;
   margin: 0 auto;
   padding: 50px;
+  font-family:cursive;
 }
 
 .footer p {
-  margin-left: 450px;
-  margin-top: -70px;
+  margin-left: 490px;
+  margin-top: -90px;
+  font-family:cursive;
 }
 
 .footer img {
   margin-top: -50px;
   height: 50px;
-  margin-left: -30px;
+  margin-left: -190px;
 }
 
 .footer li {
-  margin-left: 220px;
-  margin-top: 20px;
+  margin-left: 210px;
+  margin-top: 30px;
+  font-family:cursive;
 }
 
 .footer logo {
@@ -509,45 +700,45 @@ form button:hover {
 
 .footer .contatos {
   margin-top: -210px;
+  font-family:cursive;
 }
-
-
 
 
 .agency-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  font-family:cursive;
 }
 
-/* .logo img {
-  max-width: 150px;
-  height: auto;
-} */
 
 .contact-info {
   flex-grow: 1;
   margin-left: 20px;
+  font-family:cursive;
 }
 
 .contact-info h2 {
   margin-bottom: 10px;
+  font-family:cursive;
 }
 
 .contact-info ul {
   list-style: none;
   padding: 0;
   margin-left: 130px;
+  font-family:cursive;
 }
 
 .contact-info ul li {
   margin-bottom: 5px;
+  font-family:cursive;
 }
 
 .contact-info ul li a {
   text-decoration: none;
   color:darkcyan;
+  font-family:cursive;
 }
 
 .contact-info ul li a:hover {
@@ -560,13 +751,441 @@ margin-left: 152px;
 
 .contact-info p {
 margin-left: 430px;
+font-family:cursive;
     }
 
 
 
 .final h4 {
-  margin-left: 455px ;
+  font-family:cursive;
+  align-items: center;
+  text-align: center;
 }
 
 
+/* Estilos para telas maiores */
+@media screen and (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
 
+  .titulo {
+    color: #5256C5;
+    background-color: #fff;
+    width: 910%;
+    padding: 10px 23px 0 10px;
+    box-sizing: border-box;
+    margin-top: -30px;
+    font-family: cursive;
+  }
+
+  .titulo h1 {
+    margin-left: 99px;
+    font-family: cursive;
+  }
+
+  .titulo h2 {
+    margin-left: 99px;
+    margin-top: 80px;
+    margin-right: 180px;
+    font-family: cursive;
+  }
+
+  .titulo img {
+    height: 53px;
+    margin-top: 3px;
+    position: absolute;
+    margin-left: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .titulo {
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+  }
+
+  .Menu {
+    font-family: cursive;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 450px;
+    margin-top: -45px;
+  }
+
+  nav ul li {
+    display: inline;
+    margin-right: 90px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  .Sobre {
+    color: #5256C5;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 10px;
+    font-family: cursive;
+  }
+
+  .Sobre .pagina {
+    padding: 10px;
+    font-family: cursive;
+  }
+
+  .Sobre h2,
+  .Sobre h1,
+  .Sobre h5 {
+    margin: 0;
+    border-radius: 30px;
+    color: #5256C5;
+    font-family: cursive;
+  }
+
+  .Sobre h3 {
+    color: #5256C5;
+    font-family: cursive;
+    text-align: start;
+    margin-left: 100px;
+  }
+
+  .Sobre img {
+    max-width: 100%;
+  }
+
+  .Sobre p {
+    color: #5256C5;
+    font-family: cursive;
+  }
+
+  .Marketing {
+    font-family: cursive;
+  }
+
+  .Marketing h2 {
+    background-color: #fff;
+    color: darkcyan;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+  }
+
+  .whatsapp-logo img {
+    width: 50px;
+    height: auto;
+  }
+
+  .content {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+
+  .content p {
+    padding: 1px;
+    width: 290px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .content h1 {
+    margin-right: 910px;
+    color: darkcyan;
+  }
+
+  .conteiner {
+    width: 300px;
+    margin-top: -999px;
+  }
+
+  .conteiner h1 {
+    margin-left: 950px;
+  }
+
+  .contact h2 {
+    width: 290px;
+    margin-left: 15px;
+    background-color: darkcyan;
+    color: #fff;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -480px;
+    right: -150px;
+    gap: 250px;
+    border-color: #5256C5;
+    width: 290px;
+    margin-right: 180px;
+    margin-left: 770px;
+    margin-top: -160px;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #fff;
+    color: #5256C5;
+    width: 600;
+  }
+
+  h2 {
+    background-color: #5256C5;
+    color: #f4f4f4;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5256C5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkcyan;
+  }
+
+  .Slogan {
+    width: 500px;
+    margin-left: 360px;
+    margin-top: -705px;
+    text-align: center;
+  }
+
+  .Slogan h1 {
+    color: #5256C5;
+    background-color: #fff;
+  }
+
+  .Slogan h2 {
+    color: #5256C5;
+    background-color: #fff;
+    text-align: justify;
+    letter-spacing: -2px;
+    font-size: 18px;
+  }
+
+  .Paragrafo h1 {
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background-color: darkcyan;
+  }
+
+  .Paragrafo h2 {
+    font-size: 80px;
+  }
+
+  .Logo img {
+    margin-left: 95px;
+    margin-top: 30px;
+  }
+
+  .Logo h3 {
+    margin-left: 70px;
+    background-color: darkcyan;
+    width: 178px;
+    color: #f4f4f4;
+  }
+
+  .Logo p {
+    margin-left: 130px;
+    font-size: large;
+    color: #f4f4f4;
+
+
+
+
+    /* Estilos para telas menores */
+@media screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .titulo {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -30px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  .titulo h1,
+  .titulo h2 {
+    margin: 0;
+    font-family: cursive;
+  }
+
+  .titulo img {
+    height: 40px;
+    margin-top: 3px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .Sobre {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Sobre h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Slogan {
+    margin: 20px auto;
+    width: 90%;
+    margin-top: -40px;
+  }
+
+  .Slogan h2 {
+    font-size: 16px;
+  }
+
+  .content p {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    margin-top: -130px;
+  }
+
+  .beneficios {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: -60px;
+  }
+
+  .beneficios img {
+    margin-top: -400px;
+    margin-left: -20px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .FAQ {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .footer p {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .footer img {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .agency-info {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .contact-info {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact-info ul {
+    margin-left: 0;
+  }
+
+  .contact-info img {
+    margin-left: 0;
+  }
+
+  .contact-info p {
+    margin-left: 0;
+  }
+}
