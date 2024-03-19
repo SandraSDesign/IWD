@@ -18,3 +18,6 @@ perguntas.forEach(function(pergunta) {
         }
     });
 });
+
+
+

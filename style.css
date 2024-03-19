@@ -1,6 +1,5 @@
 body {
   overflow-x: hidden;
-
 }
 
 .titulo {
@@ -36,14 +35,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .titulo {
   display: flex;
   align-items: center;
   font-family:cursive;
-  
 }
 
 
@@ -57,7 +54,6 @@ nav ul {
   margin: 0;
   margin-left: 450px;
   margin-top: -45px;
-  
 }
 
 nav ul li {
@@ -67,7 +63,6 @@ nav ul li {
 
 nav ul li:last-child {
   margin-right: 0;
- 
 }
 
 
@@ -76,33 +71,45 @@ nav ul li:last-child {
   padding: 20px;
   border-radius: 8px;
   margin: 0 auto;
-  text-align: center;
+  text-align:right;
   width: 50%;
-  margin-top: 10px;
+  margin-top: 30px;
   font-family:cursive;
+  font-size:29px;
+  
 }
 
 .Sobre .pagina {
   padding: 10px; 
   font-family:cursive;
+  width: 2100px;
+  margin-left: -130px;
+  margin-top: 30px;
+ 
 }
 
-.Sobre h2,
-.Sobre h1,
-/* .Sobre h3, */
+
+.Sobre h1 {
+    width: 1000px;
+    border-radius: 9px;
+    color: darkcyan;
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    
+  }
+  
 .Sobre h5 {
   margin: 0; 
   border-radius: 30px;
   color: #5256C5;
   font-family:cursive;
-}
-
-
-.Sobre h3 {
-  color:#5256C5;
-  font-family:cursive;
-  text-align:start;
-  margin-left:100px;
+  text-align: center;
+  
+ 
 }
 
 
@@ -110,23 +117,26 @@ nav ul li:last-child {
   max-width: 100%; 
 }
 
-.Sobre p {
-  color:#5256C5;
-  font-family:cursive;
+Sobre p {
+  color: #5256C5;
+  font-family: cursive;
+  display: inline-block;
+ 
 }
+
 
 .Marketing {
   font-family:cursive;
 }
 
 .Marketing h2 {
-  background-color:#fff;
-  color:darkcyan;
+  background-color:darkcyan;
+  color:#fff;
   text-align:center;
   font-size: 25px;
   font-family:cursive;
+  margin-right: 50px;
 }
-
 
 
 .whatsapp-logo img {
@@ -134,32 +144,66 @@ nav ul li:last-child {
     height: auto;
 }
 
-
-
 .content {
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 390px;
     font-family:cursive;
-    margin-top: -5px;
-   
+    margin-top: -290px;
 }
 
 .content p {
     padding: 1px; 
     width: 290px;
-    margin-left: 10px;
+    margin-left: 270px;
     font-size: 25px;
     font-family:cursive;
     color: darkcyan;
     text-align:center;
-    
+    margin-top: 20px;
 }
 
 .content h1 {
   margin-right: 910px;
   color: darkcyan;
   font-family:cursive;
+  margin-top: 20ox;
 }
+
+.A-PARTIR {
+  width: 1500px;
+  margin-left: -500px;
+  border-radius: 50px;
+}
+
+.A-PARTIR h1 {
+  color: darkcyan;
+}
+
+.cinco {
+
+}
+
+.cinco h1 {
+  font-size: xx-large;
+  font-weight: 900px;
+  
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.cinco h6 {
+  font-size: 50px;
+  max-height: 0px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 150px;
+  color: darkcyan;
+  animation: blink 1s infinite;
+}
+
 
 .conteiner {
   width: 300px;
@@ -272,17 +316,18 @@ button:hover {
 .Slogan {
   width: 500px;
   margin-left: 360px;
-  margin-top: -705px;
+  margin-top: 605px;
   text-align: center;
   font-family:cursive;
   position:static;
+  font-size: 26px;
+  left: 53%;
 
 }
 
 .Slogan h1  {
-  color: #5256C5;
-  background-color:#fff; 
   font-family:cursive;
+  margin-left: 150px;
 }
 
 .Slogan h2 {
@@ -291,11 +336,14 @@ button:hover {
   text-align:justify;
   font-family:cursive;
   letter-spacing: -2px;
-  font-size: 18px;
+  font-size: 98px;
+  margin-left: 150px;
+  
 }
 
 .Paragrafo {
-  
+  margin-left: 110px;
+  font-size: 40px;
   }
 
 .Paragrafo h1{
@@ -305,8 +353,9 @@ button:hover {
   text-align:center;
   font-family:cursive;
   font-size: 40px;
-  color:#fff;
-  background-color:darkcyan;
+  color:darkcyan;
+  margin-left: 390px;
+  text-align: center;
 }
 
 .Paragrafo h2 {
@@ -343,6 +392,7 @@ button:hover {
   width: 600px;
   margin-top: 810px;
   font-family:cursive;
+  margin-left: 50px;
 }
 
 
@@ -353,6 +403,7 @@ button:hover {
   margin-left: -50px;
   font-family:cursive;
   text-align: center;
+  margin-left: 10px;
 }
 
 .texto h2 {
@@ -360,24 +411,56 @@ button:hover {
   color:#5256C5;
   border-radius: 10px;
   width: 830px;
-  margin-left: -10px;
+  margin-left: 40px;
   text-align:left;
   font-family:cursive;
   text-align:center;
   letter-spacing: -4px;
-  margin-top: -20px;
+  margin-top: 10px;
+}
+
+.elemento {
+  position: absolute; 
+  margin-top: -100px;
+  left: 5%;
+}
+
+.elemento img {
+  height: 230px;
+  margin-top: 20px;
+  animation: piscar 1s infinite alternate;
+
+}
+
+.elemento h6 {
+  margin-top: 30px;
+  font-size: 25px;
+  height: 10px;
+  color: darkcyan;
+  animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+  0% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  }
 }
 
 .promocao  {
     width: 200px;
     margin: 50px auto;
     text-align: center;
-   
+    margin-top: -430px;
+    margin-left: 250px;
+       
 }
 
 
 .promo-selo h2 {
-  width: 250px;
+  width: 10px;
   border-radius: 10px;
   margin-left: -650px;
   margin-top: -788px;
@@ -388,6 +471,9 @@ button:hover {
     padding: 10px 20px;
     border-radius: 30px;
     margin-bottom: 20px;
+    margin-top: -50px;
+    margin-left: 30px;
+    
 }
 
 
@@ -399,16 +485,19 @@ button:hover {
     border-radius: 10px;
     width: 250px;
     margin-left: -621px;
-    margin-top: -10px;
+    margin-top: -50px;
     height:-30px;
     background-color:darkcyan;
+    margin-top: 10px;
+   
 }
 
 
 .promocao h2 {
     font-size: 26;
-    width: 450px;
+    width: 310px;
     text-align: center;
+    margin-bottom: 10px;
   }
 
 .service-list {
@@ -477,8 +566,7 @@ button:hover {
 .project {
   display: inline-block;
   width: calc(33.33% - 20px);
-  margin: 10px;
-  background-color: #fff;
+  margin: 10px; 
   padding: 20px;
   box-sizing: border-box;
   margin-left: 180px;
@@ -490,58 +578,92 @@ button:hover {
   height: auto;
 }
 
+.project h1 {
+  margin-top: 90px;
+  margin-left: -390px;
+}
+
 .description {
   margin-top: 10px;
   font-family:cursive;
 }
 
-.projetos {
-  align-items: center;
+/* .projetos {
+  align-items:self-start;
   width: 1250px;
-  margin-top: -111px;
-  margin-left: -728px;
+  margin-left: -650px;
   font-family:cursive;
+  margin-top: 280px;
 }
 
+
+.projetos h1 {
+  width: 900px;
+  border-radius: 9px;
+  color: darkcyan;
+  margin-left: 55px;
+  font-family:cursive; */
+
+
+/* .projetos a{ */
+  /* margin-left:-150px;
+  font-family:cursive;
+   */
+/* } */
+
+
+
+.projetos {
+  align-items: self-start;
+  width: 999px;
+  margin-left: -50px;
+  font-family: cursive;
+  margin-top: 80px;
+
+}
+
+
+.projetos a, .projetos p {
+  display: inline-block; 
+  margin-left: -888px; 
+  font-family: cursive;
+}
 
 .projetos h1 {
   width: 1000px;
   border-radius: 9px;
   color: darkcyan;
-  margin-left: -55px;
-  font-family:cursive;
+  margin-left: -800px;
+  font-family: cursive;
+  margin-top: 350px;
 }
 
-.projetos a{
-  margin-left:-150px;
-  font-family:cursive;
-  margin-left: -400px;
-}
 
-.projetos p {
-  margin-left: -50px;
-  font-family:cursive;
-  color: darkcyan;
-}
 
 .Fale-Conosco {
     margin: 0 auto;
     padding: 20px;
     font-family:cursive;
     width: 600px;
-    margin-left: -230px;
+    margin-left: -130px;
 }
 
 .Fale-Conosco p {
-  margin-left: 200px;
+  margin-left: -100px;
+  
+}
+
+.Fale-Conosco h2 {
+  margin-left: -10px;
 }
 
 .contact-box {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px hsla(242, 63%, 54%, 0.1);
     font-family:cursive;
+    
 }
 
 .contact-box h2 {
@@ -552,6 +674,7 @@ button:hover {
 
 .contact-info h2 {
 margin-left: 200px;
+font-size: 30px;
 }
 
 .contact-info li a {
@@ -559,7 +682,7 @@ margin-left: 200px;
 }
 
 .contact-box p {
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 20px;
     font-family:cursive;
 }
@@ -592,49 +715,55 @@ form button {
 form button:hover {
     background-color: #5256C5;
 }
-}
+
 
 .beneficios {
     max-width: 550px;
     margin: 0 auto;
     padding: 20px;
     margin-top: -10px;
-    margin-left: 580px;
+    margin-left: 0px;
     font-family:cursive;
-} 
-
-.beneficios img {
-  height: 430px;
-  margin-top: -530px ;
-  margin-left: 10px;
-  opacity: 0.2; 
 } 
 
 h5 {
     color:darkcyan;
     font-family:cursive;
-    margin-left: -105px;
-    text-align: center;
+    margin-left: 150px;
+    text-align:start;
     font-size: 30px;
+    width: 900px;
 }
 
 p {
-    color:#5256C5;
+    color: darkcyan;
     line-height: 1.5;
-    font-size: 25px;
-    text-align:left;
+    font-size: 32px;
     margin-left: -20px;
     font-family:cursive;
-    font-style:oblique;
+    font-style: bold;
     font-display: 12px;
+    /* letter-spacing: 9px;
+    word-spacing: 1px; */
+    width: 980px;
 } 
+
+
+  .beneficios img {
+  height: 500px; 
+  margin-top: -888px; /* Movendo a imagem para cima */
+  margin-left: 250px; /* Margem esquerda */
+  opacity: 0.2; Opacidade da imagem */
+  }
+  
+
 
 .FAQ {
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   font-family:cursive;
-  margin-left: -200px;
+  margin-left: 20px;
   text-align: center;
 }
 
@@ -643,6 +772,7 @@ p {
   margin-bottom: 30px;
   margin-left: -97px;
   font-family:cursive;
+ 
 }
 
 .FAQ h2 {
@@ -651,6 +781,7 @@ p {
   margin-left: -110px;
   font-family:cursive;
   font-size: 30px;
+  
 }
 
 .FAQ p {
@@ -686,6 +817,7 @@ p {
   font-family:cursive;
   margin-left: -600px;
   height: 50px;
+  text-align: center;
  
   
 }
@@ -701,19 +833,19 @@ p {
 }
 
 .footer p {
-  margin-left: 120px;
+  margin-left: 80px;
   margin-top: 12px;
   font-family:cursive;
 }
 
-.footer img {
+/* .footer img {
   margin-top: -50px;
   height: 50px;
   margin-left: -230px;
-} 
+}  */
 
 .footer li {
-  margin-left: -10px;
+  margin-left: 10px;
   margin-top: 48px;
   font-family:cursive;
 
@@ -731,7 +863,7 @@ p {
 .footer .contatos {
   margin-top: -210px;
   font-family:cursive;
-  margin-left: 230px;
+  margin-left: 30px;
 }
 
 
@@ -743,6 +875,7 @@ p {
   align-items: center;
   font-family:cursive;
   height: 50px;
+  margin-left: -100px;
  
 }
 
@@ -803,12 +936,14 @@ background-color: #5256C5;
   font-family:cursive;
   align-items: center;
   text-align: center;
-  margin-left: -230px;
+  /* margin-left: -230px; */
   margin-top: 50px;
+  text-align: center;
 }
 
 .final h6 {
   font-size: 18px;
+  text-align:end;
 }
 
 
@@ -953,8 +1088,9 @@ background-color: #5256C5;
   }
 
   .content h1 {
-    margin-right: 910px;
+    margin-right: 1050px;
     color: darkcyan;
+    font-size: 30px;
   }
 
   .conteiner {
@@ -1206,6 +1342,7 @@ background-color: #5256C5;
   .footer {
     padding: 20px;
     font-size: 14px;
+    
   }
 
   .footer p {
